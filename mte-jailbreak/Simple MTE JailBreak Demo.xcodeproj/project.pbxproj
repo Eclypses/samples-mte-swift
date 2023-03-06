@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D08E80D329762F4C0093D409 /* License.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D08E7FD229762F4C0093D409 /* License.pdf */; };
+		D08E80D429762F4C0093D409 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = D08E7FF629762F4C0093D409 /* ReleaseNotes.txt */; };
+		D08E80D529762F4C0093D409 /* DevGuide-Sdr.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E7FF829762F4C0093D409 /* DevGuide-Sdr.md */; };
+		D08E80DC29762F4C0093D409 /* sdr-api.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E800329762F4C0093D409 /* sdr-api.md */; };
+		D08E80DD29762F4C0093D409 /* MteSdr.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E800429762F4C0093D409 /* MteSdr.md */; };
+		D08E80DE29762F4C0093D409 /* DevGuide-Jail.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E800529762F4C0093D409 /* DevGuide-Jail.md */; };
+		D08E80EB29762F4C0093D409 /* flen-api.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E801A29762F4C0093D409 /* flen-api.md */; };
+		D08E80EC29762F4C0093D409 /* MteFlenEnc.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E801B29762F4C0093D409 /* MteFlenEnc.md */; };
+		D08E810329762F4C0093D409 /* mke-api.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E803C29762F4C0093D409 /* mke-api.md */; };
+		D08E810429762F4C0093D409 /* MteMkeEnc.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E803D29762F4C0093D409 /* MteMkeEnc.md */; };
+		D08E810529762F4C0093D409 /* MteMkeDec.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E803E29762F4C0093D409 /* MteMkeDec.md */; };
+		D08E811829762F4C0093D409 /* jail-api.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E805B29762F4C0093D409 /* jail-api.md */; };
+		D08E811929762F4C0093D409 /* MteJail.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E805C29762F4C0093D409 /* MteJail.md */; };
+		D08E811E29762F4C0093D409 /* DevGuide-Flen.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E806329762F4C0093D409 /* DevGuide-Flen.md */; };
+		D08E811F29762F4C0093D409 /* DevGuide-Mke.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E806429762F4C0093D409 /* DevGuide-Mke.md */; };
+		D08E812029762F4C0093D409 /* DevGuide.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E806529762F4C0093D409 /* DevGuide.md */; };
+		D08E815729762F4C0093D409 /* MteDec.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E80A429762F4C0093D409 /* MteDec.md */; };
+		D08E815829762F4C0093D409 /* api.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E80A529762F4C0093D409 /* api.md */; };
+		D08E815929762F4C0093D409 /* MteEnc.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E80A629762F4C0093D409 /* MteEnc.md */; };
+		D08E815A29762F4C0093D409 /* MteBase.md in Resources */ = {isa = PBXBuildFile; fileRef = D08E80A729762F4C0093D409 /* MteBase.md */; };
+		D08E817629762F4C0093D409 /* iOS.txt in Resources */ = {isa = PBXBuildFile; fileRef = D08E80C529762F4C0093D409 /* iOS.txt */; };
+		D08E817729762F4C0093D409 /* mte.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08E80C729762F4C0093D409 /* mte.xcframework */; };
+		D08E817829762F4C0093D409 /* MteDec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08E80CA29762F4C0093D409 /* MteDec.swift */; };
+		D08E817929762F4C0093D409 /* MteMkeEnc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08E80CB29762F4C0093D409 /* MteMkeEnc.swift */; };
+		D08E817A29762F4C0093D409 /* MteFlenEnc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08E80CC29762F4C0093D409 /* MteFlenEnc.swift */; };
+		D08E817B29762F4C0093D409 /* MteSdr.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08E80CD29762F4C0093D409 /* MteSdr.swift */; };
+		D08E817C29762F4C0093D409 /* MteJail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08E80CE29762F4C0093D409 /* MteJail.swift */; };
+		D08E817D29762F4C0093D409 /* MteBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08E80CF29762F4C0093D409 /* MteBase.swift */; };
+		D08E817E29762F4C0093D409 /* MteMkeDec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08E80D029762F4C0093D409 /* MteMkeDec.swift */; };
+		D08E817F29762F4C0093D409 /* MteEnc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08E80D229762F4C0093D409 /* MteEnc.swift */; };
+		D0DEE63B28B577D700D54668 /* Simple_MTE_JailBreak_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DEE63A28B577D700D54668 /* Simple_MTE_JailBreak_DemoApp.swift */; };
+		D0DEE63D28B577D700D54668 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DEE63C28B577D700D54668 /* ContentView.swift */; };
+		D0DEE63F28B577DE00D54668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DEE63E28B577DE00D54668 /* Assets.xcassets */; };
+		D0DEE64228B577DE00D54668 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DEE64128B577DE00D54668 /* Preview Assets.xcassets */; };
+		D0DEE64C28B5893100D54668 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DEE64828B5893100D54668 /* AppSettings.swift */; };
+		D0DEE64E28B5893100D54668 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DEE64A28B5893100D54668 /* Manager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D08E7FD229762F4C0093D409 /* License.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = License.pdf; sourceTree = "<group>"; };
+		D08E7FD429762F4C0093D409 /* mte_flen_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_flen_enc.h; sourceTree = "<group>"; };
+		D08E7FD529762F4C0093D409 /* mte_verifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_verifiers.h; sourceTree = "<group>"; };
+		D08E7FD629762F4C0093D409 /* mte_mke_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_mke_dec.h; sourceTree = "<group>"; };
+		D08E7FD729762F4C0093D409 /* mte_license.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_license.h; sourceTree = "<group>"; };
+		D08E7FD829762F4C0093D409 /* mte_base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_base64.h; sourceTree = "<group>"; };
+		D08E7FD929762F4C0093D409 /* mte_wrap_flen_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_wrap_flen_enc.h; sourceTree = "<group>"; };
+		D08E7FDA29762F4C0093D409 /* mte_verifier_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_verifier_defs.h; sourceTree = "<group>"; };
+		D08E7FDB29762F4C0093D409 /* mte_status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_status.h; sourceTree = "<group>"; };
+		D08E7FDC29762F4C0093D409 /* mte_export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_export.h; sourceTree = "<group>"; };
+		D08E7FDD29762F4C0093D409 /* mte_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_version.h; sourceTree = "<group>"; };
+		D08E7FDE29762F4C0093D409 /* mte_settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_settings.h; sourceTree = "<group>"; };
+		D08E7FDF29762F4C0093D409 /* mte_cipher_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_cipher_defs.h; sourceTree = "<group>"; };
+		D08E7FE029762F4C0093D409 /* mte_hashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_hashes.h; sourceTree = "<group>"; };
+		D08E7FE129762F4C0093D409 /* mte_mke_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_mke_enc.h; sourceTree = "<group>"; };
+		D08E7FE229762F4C0093D409 /* mte_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_struct.h; sourceTree = "<group>"; };
+		D08E7FE329762F4C0093D409 /* mte_init_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_init_info.h; sourceTree = "<group>"; };
+		D08E7FE429762F4C0093D409 /* mte_wrap_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_wrap_enc.h; sourceTree = "<group>"; };
+		D08E7FE529762F4C0093D409 /* mte_drbg_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_drbg_defs.h; sourceTree = "<group>"; };
+		D08E7FE629762F4C0093D409 /* mte_wrap_mke_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_wrap_mke_enc.h; sourceTree = "<group>"; };
+		D08E7FE729762F4C0093D409 /* mte_alloca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_alloca.h; sourceTree = "<group>"; };
+		D08E7FE829762F4C0093D409 /* mte_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_base.h; sourceTree = "<group>"; };
+		D08E7FE929762F4C0093D409 /* mte_jail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_jail.h; sourceTree = "<group>"; };
+		D08E7FEA29762F4C0093D409 /* mte_wrap_jail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_wrap_jail.h; sourceTree = "<group>"; };
+		D08E7FEB29762F4C0093D409 /* mte_init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_init.h; sourceTree = "<group>"; };
+		D08E7FEC29762F4C0093D409 /* mte_ciphers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_ciphers.h; sourceTree = "<group>"; };
+		D08E7FED29762F4C0093D409 /* mte_wrap_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_wrap_base.h; sourceTree = "<group>"; };
+		D08E7FEE29762F4C0093D409 /* mte_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_dec.h; sourceTree = "<group>"; };
+		D08E7FEF29762F4C0093D409 /* mte_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_int.h; sourceTree = "<group>"; };
+		D08E7FF029762F4C0093D409 /* mte_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_enc.h; sourceTree = "<group>"; };
+		D08E7FF129762F4C0093D409 /* mte_drbgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_drbgs.h; sourceTree = "<group>"; };
+		D08E7FF229762F4C0093D409 /* mte_wrap_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_wrap_dec.h; sourceTree = "<group>"; };
+		D08E7FF329762F4C0093D409 /* mte_hash_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_hash_defs.h; sourceTree = "<group>"; };
+		D08E7FF429762F4C0093D409 /* mte_wrap_mke_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mte_wrap_mke_dec.h; sourceTree = "<group>"; };
+		D08E7FF629762F4C0093D409 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		D08E7FF829762F4C0093D409 /* DevGuide-Sdr.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "DevGuide-Sdr.md"; sourceTree = "<group>"; };
+		D08E800329762F4C0093D409 /* sdr-api.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "sdr-api.md"; sourceTree = "<group>"; };
+		D08E800429762F4C0093D409 /* MteSdr.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = MteSdr.md; sourceTree = "<group>"; };
+		D08E800529762F4C0093D409 /* DevGuide-Jail.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "DevGuide-Jail.md"; sourceTree = "<group>"; };
+		D08E801A29762F4C0093D409 /* flen-api.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "flen-api.md"; sourceTree = "<group>"; };
+		D08E801B29762F4C0093D409 /* MteFlenEnc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = MteFlenEnc.md; sourceTree = "<group>"; };
+		D08E803C29762F4C0093D409 /* mke-api.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "mke-api.md"; sourceTree = "<group>"; };
+		D08E803D29762F4C0093D409 /* MteMkeEnc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = MteMkeEnc.md; sourceTree = "<group>"; };
+		D08E803E29762F4C0093D409 /* MteMkeDec.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = MteMkeDec.md; sourceTree = "<group>"; };
+		D08E805B29762F4C0093D409 /* jail-api.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "jail-api.md"; sourceTree = "<group>"; };
+		D08E805C29762F4C0093D409 /* MteJail.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = MteJail.md; sourceTree = "<group>"; };
+		D08E806329762F4C0093D409 /* DevGuide-Flen.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "DevGuide-Flen.md"; sourceTree = "<group>"; };
+		D08E806429762F4C0093D409 /* DevGuide-Mke.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "DevGuide-Mke.md"; sourceTree = "<group>"; };
+		D08E806529762F4C0093D409 /* DevGuide.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = DevGuide.md; sourceTree = "<group>"; };
+		D08E80A429762F4C0093D409 /* MteDec.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = MteDec.md; sourceTree = "<group>"; };
+		D08E80A529762F4C0093D409 /* api.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = api.md; sourceTree = "<group>"; };
+		D08E80A629762F4C0093D409 /* MteEnc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = MteEnc.md; sourceTree = "<group>"; };
+		D08E80A729762F4C0093D409 /* MteBase.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = MteBase.md; sourceTree = "<group>"; };
+		D08E80C529762F4C0093D409 /* iOS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iOS.txt; sourceTree = "<group>"; };
+		D08E80C729762F4C0093D409 /* mte.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = mte.xcframework; sourceTree = "<group>"; };
+		D08E80CA29762F4C0093D409 /* MteDec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MteDec.swift; sourceTree = "<group>"; };
+		D08E80CB29762F4C0093D409 /* MteMkeEnc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MteMkeEnc.swift; sourceTree = "<group>"; };
+		D08E80CC29762F4C0093D409 /* MteFlenEnc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MteFlenEnc.swift; sourceTree = "<group>"; };
+		D08E80CD29762F4C0093D409 /* MteSdr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MteSdr.swift; sourceTree = "<group>"; };
+		D08E80CE29762F4C0093D409 /* MteJail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MteJail.swift; sourceTree = "<group>"; };
+		D08E80CF29762F4C0093D409 /* MteBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MteBase.swift; sourceTree = "<group>"; };
+		D08E80D029762F4C0093D409 /* MteMkeDec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MteMkeDec.swift; sourceTree = "<group>"; };
+		D08E80D129762F4C0093D409 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		D08E80D229762F4C0093D409 /* MteEnc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MteEnc.swift; sourceTree = "<group>"; };
+		D0DEE63728B577D700D54668 /* Simple MTE JailBreak Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple MTE JailBreak Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DEE63A28B577D700D54668 /* Simple_MTE_JailBreak_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_MTE_JailBreak_DemoApp.swift; sourceTree = "<group>"; };
+		D0DEE63C28B577D700D54668 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0DEE63E28B577DE00D54668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0DEE64128B577DE00D54668 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0DEE64828B5893100D54668 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		D0DEE64A28B5893100D54668 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0DEE63428B577D700D54668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08E817729762F4C0093D409 /* mte.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D08E7FD029762F4C0093D409 /* MteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D08E7FD129762F4C0093D409 /* license */,
+				D08E7FD329762F4C0093D409 /* include */,
+				D08E7FF529762F4C0093D409 /* docs */,
+				D08E80C629762F4C0093D409 /* lib */,
+				D08E80C829762F4C0093D409 /* src */,
+			);
+			path = MteSDK;
+			sourceTree = "<group>";
+		};
+		D08E7FD129762F4C0093D409 /* license */ = {
+			isa = PBXGroup;
+			children = (
+				D08E7FD229762F4C0093D409 /* License.pdf */,
+			);
+			path = license;
+			sourceTree = "<group>";
+		};
+		D08E7FD329762F4C0093D409 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D08E7FD429762F4C0093D409 /* mte_flen_enc.h */,
+				D08E7FD529762F4C0093D409 /* mte_verifiers.h */,
+				D08E7FD629762F4C0093D409 /* mte_mke_dec.h */,
+				D08E7FD729762F4C0093D409 /* mte_license.h */,
+				D08E7FD829762F4C0093D409 /* mte_base64.h */,
+				D08E7FD929762F4C0093D409 /* mte_wrap_flen_enc.h */,
+				D08E7FDA29762F4C0093D409 /* mte_verifier_defs.h */,
+				D08E7FDB29762F4C0093D409 /* mte_status.h */,
+				D08E7FDC29762F4C0093D409 /* mte_export.h */,
+				D08E7FDD29762F4C0093D409 /* mte_version.h */,
+				D08E7FDE29762F4C0093D409 /* mte_settings.h */,
+				D08E7FDF29762F4C0093D409 /* mte_cipher_defs.h */,
+				D08E7FE029762F4C0093D409 /* mte_hashes.h */,
+				D08E7FE129762F4C0093D409 /* mte_mke_enc.h */,
+				D08E7FE229762F4C0093D409 /* mte_struct.h */,
+				D08E7FE329762F4C0093D409 /* mte_init_info.h */,
+				D08E7FE429762F4C0093D409 /* mte_wrap_enc.h */,
+				D08E7FE529762F4C0093D409 /* mte_drbg_defs.h */,
+				D08E7FE629762F4C0093D409 /* mte_wrap_mke_enc.h */,
+				D08E7FE729762F4C0093D409 /* mte_alloca.h */,
+				D08E7FE829762F4C0093D409 /* mte_base.h */,
+				D08E7FE929762F4C0093D409 /* mte_jail.h */,
+				D08E7FEA29762F4C0093D409 /* mte_wrap_jail.h */,
+				D08E7FEB29762F4C0093D409 /* mte_init.h */,
+				D08E7FEC29762F4C0093D409 /* mte_ciphers.h */,
+				D08E7FED29762F4C0093D409 /* mte_wrap_base.h */,
+				D08E7FEE29762F4C0093D409 /* mte_dec.h */,
+				D08E7FEF29762F4C0093D409 /* mte_int.h */,
+				D08E7FF029762F4C0093D409 /* mte_enc.h */,
+				D08E7FF129762F4C0093D409 /* mte_drbgs.h */,
+				D08E7FF229762F4C0093D409 /* mte_wrap_dec.h */,
+				D08E7FF329762F4C0093D409 /* mte_hash_defs.h */,
+				D08E7FF429762F4C0093D409 /* mte_wrap_mke_dec.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		D08E7FF529762F4C0093D409 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				D08E7FF629762F4C0093D409 /* ReleaseNotes.txt */,
+				D08E7FF729762F4C0093D409 /* addons */,
+				D08E806529762F4C0093D409 /* DevGuide.md */,
+				D08E806629762F4C0093D409 /* lang */,
+				D08E80C529762F4C0093D409 /* iOS.txt */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		D08E7FF729762F4C0093D409 /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				D08E7FF829762F4C0093D409 /* DevGuide-Sdr.md */,
+				D08E7FF929762F4C0093D409 /* sdr */,
+				D08E800529762F4C0093D409 /* DevGuide-Jail.md */,
+				D08E800629762F4C0093D409 /* flen */,
+				D08E802229762F4C0093D409 /* mke */,
+				D08E804729762F4C0093D409 /* jail */,
+				D08E806329762F4C0093D409 /* DevGuide-Flen.md */,
+				D08E806429762F4C0093D409 /* DevGuide-Mke.md */,
+			);
+			path = addons;
+			sourceTree = "<group>";
+		};
+		D08E7FF929762F4C0093D409 /* sdr */ = {
+			isa = PBXGroup;
+			children = (
+				D08E800229762F4C0093D409 /* swift */,
+			);
+			path = sdr;
+			sourceTree = "<group>";
+		};
+		D08E800229762F4C0093D409 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				D08E800329762F4C0093D409 /* sdr-api.md */,
+				D08E800429762F4C0093D409 /* MteSdr.md */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		D08E800629762F4C0093D409 /* flen */ = {
+			isa = PBXGroup;
+			children = (
+				D08E801929762F4C0093D409 /* swift */,
+			);
+			path = flen;
+			sourceTree = "<group>";
+		};
+		D08E801929762F4C0093D409 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				D08E801A29762F4C0093D409 /* flen-api.md */,
+				D08E801B29762F4C0093D409 /* MteFlenEnc.md */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		D08E802229762F4C0093D409 /* mke */ = {
+			isa = PBXGroup;
+			children = (
+				D08E803B29762F4C0093D409 /* swift */,
+			);
+			path = mke;
+			sourceTree = "<group>";
+		};
+		D08E803B29762F4C0093D409 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				D08E803C29762F4C0093D409 /* mke-api.md */,
+				D08E803D29762F4C0093D409 /* MteMkeEnc.md */,
+				D08E803E29762F4C0093D409 /* MteMkeDec.md */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		D08E804729762F4C0093D409 /* jail */ = {
+			isa = PBXGroup;
+			children = (
+				D08E805A29762F4C0093D409 /* swift */,
+			);
+			path = jail;
+			sourceTree = "<group>";
+		};
+		D08E805A29762F4C0093D409 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				D08E805B29762F4C0093D409 /* jail-api.md */,
+				D08E805C29762F4C0093D409 /* MteJail.md */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		D08E806629762F4C0093D409 /* lang */ = {
+			isa = PBXGroup;
+			children = (
+				D08E80A329762F4C0093D409 /* swift */,
+			);
+			path = lang;
+			sourceTree = "<group>";
+		};
+		D08E80A329762F4C0093D409 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				D08E80A429762F4C0093D409 /* MteDec.md */,
+				D08E80A529762F4C0093D409 /* api.md */,
+				D08E80A629762F4C0093D409 /* MteEnc.md */,
+				D08E80A729762F4C0093D409 /* MteBase.md */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		D08E80C629762F4C0093D409 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D08E80C729762F4C0093D409 /* mte.xcframework */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		D08E80C829762F4C0093D409 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D08E80C929762F4C0093D409 /* swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		D08E80C929762F4C0093D409 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				D08E80CA29762F4C0093D409 /* MteDec.swift */,
+				D08E80CB29762F4C0093D409 /* MteMkeEnc.swift */,
+				D08E80CC29762F4C0093D409 /* MteFlenEnc.swift */,
+				D08E80CD29762F4C0093D409 /* MteSdr.swift */,
+				D08E80CE29762F4C0093D409 /* MteJail.swift */,
+				D08E80CF29762F4C0093D409 /* MteBase.swift */,
+				D08E80D029762F4C0093D409 /* MteMkeDec.swift */,
+				D08E80D129762F4C0093D409 /* Bridging-Header.h */,
+				D08E80D229762F4C0093D409 /* MteEnc.swift */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		D0DEE62E28B577D700D54668 = {
+			isa = PBXGroup;
+			children = (
+				D08E7FD029762F4C0093D409 /* MteSDK */,
+				D0DEE63928B577D700D54668 /* Simple MTE JailBreak Demo */,
+				D0DEE63828B577D700D54668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DEE63828B577D700D54668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0DEE63728B577D700D54668 /* Simple MTE JailBreak Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0DEE63928B577D700D54668 /* Simple MTE JailBreak Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D0DEE64828B5893100D54668 /* AppSettings.swift */,
+				D0DEE64A28B5893100D54668 /* Manager.swift */,
+				D0DEE63A28B577D700D54668 /* Simple_MTE_JailBreak_DemoApp.swift */,
+				D0DEE63C28B577D700D54668 /* ContentView.swift */,
+				D0DEE63E28B577DE00D54668 /* Assets.xcassets */,
+				D0DEE64028B577DE00D54668 /* Preview Content */,
+			);
+			path = "Simple MTE JailBreak Demo";
+			sourceTree = "<group>";
+		};
+		D0DEE64028B577DE00D54668 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0DEE64128B577DE00D54668 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0DEE63628B577D700D54668 /* Simple MTE JailBreak Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DEE64528B577DE00D54668 /* Build configuration list for PBXNativeTarget "Simple MTE JailBreak Demo" */;
+			buildPhases = (
+				D0DEE63328B577D700D54668 /* Sources */,
+				D0DEE63428B577D700D54668 /* Frameworks */,
+				D0DEE63528B577D700D54668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple MTE JailBreak Demo";
+			productName = "Simple MTE JailBreak Demo";
+			productReference = D0DEE63728B577D700D54668 /* Simple MTE JailBreak Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0DEE62F28B577D700D54668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D0DEE63628B577D700D54668 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D0DEE63228B577D700D54668 /* Build configuration list for PBXProject "Simple MTE JailBreak Demo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0DEE62E28B577D700D54668;
+			productRefGroup = D0DEE63828B577D700D54668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0DEE63628B577D700D54668 /* Simple MTE JailBreak Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0DEE63528B577D700D54668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08E80D429762F4C0093D409 /* ReleaseNotes.txt in Resources */,
+				D0DEE64228B577DE00D54668 /* Preview Assets.xcassets in Resources */,
+				D0DEE63F28B577DE00D54668 /* Assets.xcassets in Resources */,
+				D08E817629762F4C0093D409 /* iOS.txt in Resources */,
+				D08E815729762F4C0093D409 /* MteDec.md in Resources */,
+				D08E80D329762F4C0093D409 /* License.pdf in Resources */,
+				D08E811F29762F4C0093D409 /* DevGuide-Mke.md in Resources */,
+				D08E810329762F4C0093D409 /* mke-api.md in Resources */,
+				D08E810529762F4C0093D409 /* MteMkeDec.md in Resources */,
+				D08E80EB29762F4C0093D409 /* flen-api.md in Resources */,
+				D08E80DD29762F4C0093D409 /* MteSdr.md in Resources */,
+				D08E80DE29762F4C0093D409 /* DevGuide-Jail.md in Resources */,
+				D08E80D529762F4C0093D409 /* DevGuide-Sdr.md in Resources */,
+				D08E811929762F4C0093D409 /* MteJail.md in Resources */,
+				D08E80EC29762F4C0093D409 /* MteFlenEnc.md in Resources */,
+				D08E815829762F4C0093D409 /* api.md in Resources */,
+				D08E811E29762F4C0093D409 /* DevGuide-Flen.md in Resources */,
+				D08E811829762F4C0093D409 /* jail-api.md in Resources */,
+				D08E815929762F4C0093D409 /* MteEnc.md in Resources */,
+				D08E812029762F4C0093D409 /* DevGuide.md in Resources */,
+				D08E810429762F4C0093D409 /* MteMkeEnc.md in Resources */,
+				D08E80DC29762F4C0093D409 /* sdr-api.md in Resources */,
+				D08E815A29762F4C0093D409 /* MteBase.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0DEE63328B577D700D54668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08E817C29762F4C0093D409 /* MteJail.swift in Sources */,
+				D08E817E29762F4C0093D409 /* MteMkeDec.swift in Sources */,
+				D08E817A29762F4C0093D409 /* MteFlenEnc.swift in Sources */,
+				D08E817F29762F4C0093D409 /* MteEnc.swift in Sources */,
+				D0DEE63D28B577D700D54668 /* ContentView.swift in Sources */,
+				D08E817829762F4C0093D409 /* MteDec.swift in Sources */,
+				D0DEE63B28B577D700D54668 /* Simple_MTE_JailBreak_DemoApp.swift in Sources */,
+				D08E817929762F4C0093D409 /* MteMkeEnc.swift in Sources */,
+				D0DEE64C28B5893100D54668 /* AppSettings.swift in Sources */,
+				D08E817B29762F4C0093D409 /* MteSdr.swift in Sources */,
+				D0DEE64E28B5893100D54668 /* Manager.swift in Sources */,
+				D08E817D29762F4C0093D409 /* MteBase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D0DEE64328B577DE00D54668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0DEE64428B577DE00D54668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0DEE64628B577DE00D54668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Simple MTE JailBreak Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V98ZVB9SU;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eclypses.Simple-MTE-JailBreak-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MteSDK/src/swift/bridging-header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0DEE64728B577DE00D54668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Simple MTE JailBreak Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V98ZVB9SU;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eclypses.Simple-MTE-JailBreak-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MteSDK/src/swift/bridging-header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0DEE63228B577D700D54668 /* Build configuration list for PBXProject "Simple MTE JailBreak Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DEE64328B577DE00D54668 /* Debug */,
+				D0DEE64428B577DE00D54668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DEE64528B577DE00D54668 /* Build configuration list for PBXNativeTarget "Simple MTE JailBreak Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DEE64628B577DE00D54668 /* Debug */,
+				D0DEE64728B577DE00D54668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0DEE62F28B577D700D54668 /* Project object */;
+}
