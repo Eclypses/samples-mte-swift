@@ -1,0 +1,43 @@
+The following steps will create a new iOS app project in Xcode that uses the
+SDK. To add support for the SDK to an existing project, start at step 5.
+
+1. Open Xcode. Choose File->New->Project...
+2. Select iOS, then App. Click Next.
+3. Fill in the Product Name and other options. Click Next.
+4. Select the location to save. Click Create.
+5. Select the project (or target) Build Settings tab.
+6. In the Build Options section:
+   a. Set Enable Bitcode to No if the SDK does not have bitcode.
+7. In the Search Paths section:
+   a. Set the Header Search Paths to the SDK include directory.
+   b. Set the Framework Search Paths to the SDK lib directory.
+8. For each target that uses the SDK, select the target Build Phases tab:
+   a. Open the Link Binary With Libraries section.
+   b. Click +.
+   c. Choose Add Other... then Add Files...
+   d. Navigate to the SDK lib directory and choose the xcframework.
+
+For Objective-C projects, the SDK header files can be imported like any other.
+
+For Swift projects, the SDK header files must be included from a bridging
+header. To create a bridging header for a target that does not already have one:
+
+1. Right click on the target folder and select New File...
+2. Choose Header File.
+3. Give it a name like Bridging-Header.h.
+4. In the target's Build Settings tab, go to the Swift Compiler - General
+   section and set the Objective-C Bridging Header option to the header you
+   created. Example: <target folder>/Bridging-Header.h
+
+Copyright (c) Eclypses, Inc.
+
+All rights reserved.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
